@@ -23,7 +23,7 @@
 /* -------------------------------------------------------------- */
 @media (min-width: 1280px) {
     .sell {
-        padding: 2rem 15rem;
+        padding: 1rem 15rem;
     }
     .sell-content {
         display: grid;
