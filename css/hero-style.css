@@ -1,6 +1,6 @@
 .hero {
     color: #ffffff;
-    background-image: url(./res/hero-bg.jpg);
+    background-image: url(../res/hero-bg.jpg);
     background-size: cover;
     margin: -1rem 0 0 0 !important;
 }
