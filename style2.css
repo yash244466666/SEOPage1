@@ -1,0 +1,29 @@
+.nav-active {
+    color: #FDBE00;
+    border-bottom: #FDBE00 2px solid;
+    padding: 0 0 1rem 0 !important;
+}
+
+.bold {
+    font-weight: bold !important;
+}
+
+.color-yellow {
+    color: #FDBE00;
+}
+
+.color-blue {
+    color: #0272E8;
+}
+
+/* -------------------------------------------------------------- */
+/* -------------------------------------------------------------- */
+/* Screen 1280px */
+/* -------------------------------------------------------------- */
+/* -------------------------------------------------------------- */
+@media (min-width: 1280px) {
+    .nav-active {
+        padding: 1rem 0 4rem 0 !important;
+    }
+
+}

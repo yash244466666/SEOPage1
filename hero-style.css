@@ -1,0 +1,44 @@
+.hero {
+    color: #ffffff;
+    background-image: url(./res/hero-bg.png);
+    background-size: cover;
+    margin: -1rem 0 0 0 !important;
+}
+
+.hero-text {
+    padding: 1rem;
+}
+
+.hero-img {
+    display: none;
+}
+
+/* -------------------------------------------------------------- */
+/* -------------------------------------------------------------- */
+/* Screen 1280px */
+/* -------------------------------------------------------------- */
+/* -------------------------------------------------------------- */
+
+@media (min-width: 1280px) {
+    .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .hero-text {
+        padding: 12rem 0;
+    }
+
+    .hero-img {
+        display: block;
+        width: 35% !important;
+        /* height: 100%; */
+    }
+
+    .hero-img img {
+        width: 100%;
+        /* height: 100%; */
+    }
+}
