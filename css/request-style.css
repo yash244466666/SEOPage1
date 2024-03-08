@@ -42,11 +42,16 @@
         padding: 2rem 4rem;
         width: 60%;
         position: relative;
-        margin: -17rem 0 0 25rem ;
+        margin: -17rem 0 0 40rem ;
         z-index: 100;
         
     }
     .req-btn {
-        width: 25%;
+        width: 20%;
+    }
+
+    .request-content {
+        margin: 0 5rem 0 -13rem ;
+  
     }
 }
