@@ -4,4 +4,5 @@
 +8801710008502(Cell & WhatsApp) <br/>
 info@yashcodes.com <br/>
 https://www.yashcodes.com <br/>
+https://www.linkedin.com/in/yash-solo/ <br/>
 </h>
