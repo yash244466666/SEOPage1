@@ -37,27 +37,16 @@
     background: rgb(223,182,34);
     background: linear-gradient(90deg, rgba(223,182,34,1) 45%, rgba(2,114,232,1) 100%);
     color: #ffffff;
-    /* border: none; */
 }
 
 .nav-btn i {
     margin: 0 5px 0 0;
 }
 
-/* .nav-items {
-    display: flex;
-} */
 
 .navbar ul a {
-    /* margin: 0 0 0 20%;  */
     padding: 1rem  ;
-
 }
-
-/* .nav-items {
-    margin: 1.5rem 0 0 0;
-} */
-
 
 /* -------------------------------------------------------------- */
 /* -------------------------------------------------------------- */
@@ -67,10 +56,6 @@
 
 @media (min-width: 1430px) {
     .navbar  {
-        /* margin: 0 0 0 12%;  */
-        /* position: absolute;
-        top: 50%;
-        left: 8%; */
         padding: .5rem 0;
     }
 
@@ -96,10 +81,6 @@
 }
 @media (min-width: 1280px) {
     .navbar  {
-        /* margin: 0 0 0 12%;  */
-        /* position: absolute;
-        top: 50%;
-        left: 8%; */
         padding: .5rem 0;
     }
 
