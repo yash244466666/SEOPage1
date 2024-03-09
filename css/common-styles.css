@@ -31,12 +31,13 @@
 }
 .image {
     width: 100%;
-    /* height: 100%;
-    object-fit: cover; */
 }
 
 .width20 {
     width: 20%;
+}
+.width10rem {
+    width: 10rem;
 }
 
 .center {
