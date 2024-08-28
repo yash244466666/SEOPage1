@@ -1,36 +1,36 @@
 .parts {
-    background-image: url(../res/parts-bg-min.jpg);
-    background-size: cover;
+  background-image: url(../res/parts-bg-min.jpg);
+  background-size: cover;
 }
 
 .part-img img {
-    width: 100%;
-    object-fit: cover;
+  width: 100%;
+  object-fit: cover;
 }
 
 .part-img {
-    width: 10%;
+  width: 10%;
 }
 
 .parts-cards {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    padding:  1rem;
-    margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  margin: 2rem 0;
 }
 
 .part-header {
-    color: #ffffff !important;
+  color: #ffffff !important;
 }
 
 .part-des {
-    color: #ffffff;
+  color: #ffffff;
 }
 .part-des a {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 /* -------------------------------------------------------------- */
@@ -39,29 +39,37 @@
 /* -------------------------------------------------------------- */
 /* -------------------------------------------------------------- */
 @media (min-width: 1280px) {
-    .parts {
-        padding: 1rem 15rem;
-    }
-    .parts-cards {
-        display: grid;
-        grid-template-columns: repeat(2, 5fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 5rem;
-        grid-row-gap: 4rem;
-        }
-        
-        .div1 { 
-            grid-area: 1 / 1 / 2 / 2; 
-        }
-        .div2 { 
-            grid-area: 1 / 2 / 2 / 3; 
-            margin-bottom: .1rem;
-        }
-        .div3 { 
-            grid-area: 2 / 1 / 3 / 2; 
-        }
-        .div4 { 
-            grid-area: 2 / 2 / 3 / 3; 
-            margin-bottom: -1.5rem !important;
-        }
+  .parts {
+    padding: 0 0 0 15rem;
+  }
+  .parts-cards {
+    margin: 0 0 0 0 !important;
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 5rem;
+    grid-row-gap: 4rem;
+  }
+
+  .div1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .div2 {
+    grid-area: 1 / 2 / 2 / 3;
+    margin-bottom: 0.1rem;
+  }
+  .div3 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .div4 {
+    grid-area: 2 / 2 / 3 / 3;
+    margin-bottom: -1.5rem !important;
+  }
+
+  .part-des {
+    width: 60%;
+  }
+  .part-img {
+    width: 8%;
+  }
 }

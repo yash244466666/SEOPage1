@@ -1,23 +1,23 @@
 .request {
-    background-image: url(../res/request-bg-min.jpg);
-    background-size: cover;
-    padding: 1rem 2rem;
+  background-image: url(../res/request-bg-min.jpg);
+  background-size: cover;
+  padding: 1rem 2rem;
 }
 
 .request-img {
-    display: none;
+  display: none;
 }
 
 .request-txt P {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .req-btn {
-    padding: 0.5rem 1rem !important;
-    width: 50%;
-    border-radius: 5rem;
-    background: #1260de;
-    color: #ffffff;
+  padding: 0.5rem 1rem !important;
+  width: 50%;
+  border-radius: 5rem;
+  background: #1260de;
+  color: #ffffff;
 }
 
 /* -------------------------------------------------------------- */
@@ -27,29 +27,28 @@
 /* -------------------------------------------------------------- */
 
 @media (min-width: 1280px) {
-    .request {
-        padding: 10rem 4rem;
-    }
-    .request-img {
-        display: block;
-        width: 60%;
-        margin: 0 auto;
-    }
-    .request-txt {
-        background-color: #141D32;
-        padding: 2rem 4rem;
-        width: 60%;
-        position: relative;
-        margin: -18rem 0 0 40rem ;
-        z-index: 100;
-        
-    }
-    .req-btn {
-        width: 10rem;
-    }
+  .request {
+    padding: 10rem 4rem;
+  }
+  .request-img {
+    display: block;
+    width: 45%;
+    margin: 0 auto;
+  }
+  .request-txt {
+    background-color: #141d32;
+    padding: 2.5rem 4rem;
+    width: 40%;
+    position: relative;
+    margin: -19rem 0 0 60rem;
+    z-index: 100;
+  }
 
-    .request-content {
-        margin: 0 5rem 0 -13rem ;
-  
-    }
+  .req-btn {
+    width: 10rem;
+  }
+
+  .request-content {
+    margin: 0 5rem 0 -13rem;
+  }
 }

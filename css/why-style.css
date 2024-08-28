@@ -1,33 +1,33 @@
 .why-des-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .why-des-img {
-    display: none;
-    width: 20%;
+  display: none;
+  width: 20%;
 }
 
 .why-des {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1rem;
-    margin: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  margin: 2rem 0;
 }
 
 .why-cards {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 1rem;
-    margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  margin: 2rem 0;
 }
 
 .card-head-txt br {
-    display: none;
+  display: none;
 }
 
 /* -------------------------------------------------------------- */
@@ -37,40 +37,42 @@
 /* -------------------------------------------------------------- */
 
 @media (min-width: 1280px) {
-    .why-des {
-        padding: 0 4rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 2rem auto;
-        gap: 5rem;
+  .why-des {
+    padding: 0 20rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    gap: 5rem;
+  }
 
-    }
+  .why-des-img {
+    display: block;
+    width: 30%;
+  }
 
-    .why-des-img {
-        display: block;
-        width: 30%;
-    }
+  .why-des-txt {
+    width: 40%;
+  }
 
-    .why-des-txt {
-        width: 40%;
-    }
+  .why-cards {
+    flex-direction: row;
+    gap: 0rem;
+  }
+  .why-card {
+    width: 25rem !important;
+    height: 15rem;
+  }
 
-    .why-cards {
-        flex-direction: row;
-        gap: 0rem;
-    }
-
-    .card-head {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .card-head-txt h5 {
-        margin:  0 0 0 -5rem !important;
-        
-    }
-    .card-head-txt br {
-        display: block;
-    }
+  .card-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-head-txt h5 {
+    margin: 0 0 0 -5rem !important;
+  }
+  .card-head-txt br {
+    display: block;
+  }
 }
